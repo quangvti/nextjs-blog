@@ -1,115 +1,35 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
-}
+export { default as HeroLayout4 } from "src/ui-components/HeroLayout4";
+export { default as CommentCard } from "src/ui-components/CommentCard";
+export { default as FormCheckout } from "src/ui-components/FormCheckout";
+export { default as NavBar } from "src/ui-components/NavBar";
+export { default as HeroLayout1 } from "src/ui-components/HeroLayout1";
+export { default as ReviewCard } from "src/ui-components/ReviewCard";
+export { default as Features2x3 } from "src/ui-components/Features2x3";
+export { default as EditProfile } from "src/ui-components/EditProfile";
+export { default as FeaturesText2x2 } from "src/ui-components/FeaturesText2x2";
+export { default as SocialPost } from "src/ui-components/SocialPost";
+export { default as MyIcon } from "src/ui-components/MyIcon";
+export { default as HeroLayout2 } from "src/ui-components/HeroLayout2";
+export { default as HeroLayout3 } from "src/ui-components/HeroLayout3";
+export { default as ProfileCard } from "src/ui-components/ProfileCard";
+export { default as ContactUs } from "src/ui-components/ContactUs";
+export { default as FAQItem } from "src/ui-components/FAQItem";
+export { default as MarketingFooter } from "src/ui-components/MarketingFooter";
+export { default as StandardCard } from "src/ui-components/StandardCard";
+export { default as MarketingPricing } from "src/ui-components/MarketingPricing";
+export { default as Features2x2 } from "src/ui-components/Features2x2";
+export { default as ProductCard } from "src/ui-components/ProductCard";
+export { default as SideBar } from "src/ui-components/SideBar";
+export { default as ItemCard } from "src/ui-components/ItemCard";
+export { default as Ampligram } from "src/ui-components/Ampligram";
+export { default as Features4x1 } from "src/ui-components/Features4x1";
+export { default as ActionCard } from "src/ui-components/ActionCard";
+export { default as ProductDetail } from "src/ui-components/ProductDetail";
+export { default as TallCard } from "src/ui-components/TallCard";
+export { default as studioTheme } from "src/ui-components/studioTheme";

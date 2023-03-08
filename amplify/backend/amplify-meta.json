@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quangblog-staging-93825-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694116650301:role/amplify-quangblog-staging-93825-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694116650301:role/amplify-quangblog-staging-93825-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-quangblog-staging-93825-deployment",
+      "UnauthRoleName": "amplify-quangblog-staging-93825-unauthRole",
+      "StackName": "amplify-quangblog-staging-93825",
+      "StackId": "arn:aws:cloudformation:us-east-1:694116650301:stack/amplify-quangblog-staging-93825/a501d2b0-bc02-11ed-be99-0e50f7c851d9",
+      "AmplifyAppId": "d2yojpj0oez22s"
+    }
+  }
+}
